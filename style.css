@@ -331,7 +331,7 @@ footer p a {
   }
 }
 
-@media all and (max-width: 348px)  {
+@media all and (max-width: 372px)  {
   .image-gallery img {
     width: 290px;
   } 
