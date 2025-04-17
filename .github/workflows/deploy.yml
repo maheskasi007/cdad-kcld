@@ -1,4 +1,4 @@
-name: Deploy to Bluehost via SFTP
+name: Deploy to Bluehost via FTP
 on:
   push:
     branches: [ main ]
@@ -7,14 +7,14 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4  # Copies your repo files
+      - uses: actions/checkout@v4
 
-      - name: Upload files via SFTP
-        uses: wlixcc/SFTP-Deploy-Action@v1.0
+      - name: Upload files via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4
         with:
           server: ${{ secrets.BLUEHOST_HOST }}
           username: ${{ secrets.BLUEHOST_USERNAME }}
           password: ${{ secrets.BLUEHOST_PASSWORD }}
           port: ${{ secrets.BLUEHOST_PORT }}
-          local_path: './'          # Local folder to deploy
-          remote_path: '/public_html/cdad/'  # Bluehost target folder
+          local-dir: './'
+          server-dir: '/public_html/cdad/'
