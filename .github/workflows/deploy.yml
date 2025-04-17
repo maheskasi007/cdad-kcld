@@ -17,4 +17,4 @@ jobs:
           password: ${{ secrets.BLUEHOST_PASSWORD }}
           port: ${{ secrets.BLUEHOST_PORT }}
           local-dir: './'
-          server-dir: '/public_html/cdad/'
+          server-dir: '/'
