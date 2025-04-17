@@ -146,6 +146,18 @@ footer address sup {
   margin: 0;
   text-align: left;
 }
+
+.event-details .ven-loc-map {
+  margin: 1rem 0;
+}
+.event-details .ven-loc-map img {
+  width: 200px;
+}
+.event-details .ven-loc-map p {
+  font-size: 1rem;
+  margin: 0;
+  font-style: italic;
+}
 .org-comm-ppl {
   margin-top: 1.5rem;
   text-align: center;
@@ -309,6 +321,9 @@ footer p a {
   }
   .ven-loc .ven-detl p {
     font-size: 1rem;
+  }
+  .event-details .ven-loc-map img {
+    width: 150px;
   }
   .org-comm-ppl h3,
   .org-comm-ppl p {
