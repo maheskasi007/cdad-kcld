@@ -161,7 +161,6 @@ footer address sup {
 .org-comm-ppl {
   margin-top: 1.5rem;
   text-align: center;
-
 }
 .org-comm-column {
   display: flex;
@@ -180,6 +179,21 @@ footer address sup {
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 0;
+}
+.our-teams .cric-hero {
+  color: #000000;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  text-transform: capitalize;
+  margin-top: 1.5rem;
+}
+.our-teams .cric-hero a {
+  color: #00bfff;
+  text-decoration: none;
+}
+.our-teams .cric-hero a:hover {
+  text-decoration: underline;
 }
 .org-comm-ppl p {
   font-size: 1.5rem;
@@ -239,6 +253,14 @@ footer address sup {
   line-height: 0;
 }
 
+/* about CDAD */
+.about-cdad p {
+  font-size: 1.2rem;
+  color: #000;
+  margin-bottom: 0;
+  margin-top: 1.2rem;
+}
+
 footer {
   font-size: 1.5rem;
   text-align: center;
@@ -277,7 +299,7 @@ footer p a {
   .org-comm-column div {
     width: 100%;
   }
-  .image-gallery img{
+  .image-gallery img {
     width: 184px;
   }
 }
@@ -329,7 +351,7 @@ footer p a {
   .org-comm-ppl p {
     font-size: 1.2rem;
   }
-  .image-gallery{
+  .image-gallery {
     gap: 10px;
   }
   .image-gallery img {
@@ -344,10 +366,17 @@ footer p a {
   footer address sup {
     font-size: 0.6rem;
   }
+  .our-teams .cric-hero {
+    font-size: 1.2rem;
+  }
+  .about-cdad p {
+    font-size: 1rem;
+    text-align: justify;
+  }
 }
 
-@media all and (max-width: 372px)  {
+@media all and (max-width: 372px) {
   .image-gallery img {
     width: 290px;
-  } 
+  }
 }
