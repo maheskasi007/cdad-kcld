@@ -148,7 +148,16 @@ footer address sup {
 }
 
 .event-details .ven-loc-map {
-  margin: 1rem 0;
+  margin: 3rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.event-details .ven-loc-map iframe {
+  box-shadow: 2px 2px 10px 5px #cecece;
+  border-radius: 10px;
 }
 .event-details .ven-loc-map img {
   width: 200px;
@@ -190,9 +199,6 @@ footer address sup {
 }
 .our-teams .cric-hero a {
   color: #00bfff;
-  text-decoration: none;
-}
-.our-teams .cric-hero a:hover {
   text-decoration: underline;
 }
 .org-comm-ppl p {
@@ -347,6 +353,10 @@ footer p a {
   .event-details .ven-loc-map img {
     width: 150px;
   }
+  .event-details .ven-loc-map iframe {
+    width: 280px;
+    height: 280px;
+  }
   .org-comm-ppl h3,
   .org-comm-ppl p {
     font-size: 1.2rem;
@@ -378,5 +388,9 @@ footer p a {
 @media all and (max-width: 372px) {
   .image-gallery img {
     width: 290px;
+  }
+  .event-details .ven-loc-map iframe {
+    width: 250px;
+    height: 250px;
   }
 }
