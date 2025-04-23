@@ -361,9 +361,6 @@ footer p a {
   .org-comm-ppl p {
     font-size: 1.2rem;
   }
-  .image-gallery {
-    gap: 10px;
-  }
   .image-gallery img {
     width: 150px;
   }
