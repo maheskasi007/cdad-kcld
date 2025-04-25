@@ -152,12 +152,16 @@ footer address sup {
   vertical-align: middle;
 }
 .event-details .ven-loc-map {
-  margin: 3rem 0;
+  margin: 3rem 0 1rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   gap: 30px;
   flex-wrap: wrap;
+}
+.event-details .ven-loc-map .invite-video {
+  width: 450px;
+  height: auto;
 }
 .event-details .ven-loc-map iframe {
   box-shadow: 2px 2px 10px 5px #cecece;
@@ -348,10 +352,13 @@ footer p a {
   }
   .ven-loc .ven-detl p sup {
     font-size: 0.7rem;
-  }
+  } 
   .event-details .ven-loc-map iframe {
     width: 280px;
     height: 280px;
+  }
+  .event-details .ven-loc-map .invite-video{
+    width: 250px;
   }
   .org-comm-ppl h3,
   .org-comm-ppl p {
