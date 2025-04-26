@@ -283,6 +283,12 @@ footer p a {
   text-decoration: underline;
   color: #504b4b;
 }
+footer .dev-name {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
 
 @media all and (max-width: 1024px) {
   .ven-loc .ven-img {
@@ -352,12 +358,12 @@ footer p a {
   }
   .ven-loc .ven-detl p sup {
     font-size: 0.7rem;
-  } 
+  }
   .event-details .ven-loc-map iframe {
     width: 280px;
     height: 280px;
   }
-  .event-details .ven-loc-map .invite-video{
+  .event-details .ven-loc-map .invite-video {
     width: 250px;
   }
   .org-comm-ppl h3,
@@ -369,6 +375,7 @@ footer p a {
   }
   footer {
     font-size: 1rem;
+    margin: 1.5rem auto;
   }
   .footer-title {
     font-size: 1.2rem;
@@ -382,6 +389,9 @@ footer p a {
   .about-cdad p {
     font-size: 1rem;
     text-align: justify;
+  }
+  footer .dev-name {
+    font-size: 0.7rem;
   }
 }
 
